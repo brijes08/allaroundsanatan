@@ -750,7 +750,7 @@ footer span a:hover{
     }
     section.contact, section.skills{padding-bottom: 25px;}
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 30px;
     }
     .contact .contact-content .info .sub-title {
         line-height: 19px;
@@ -789,4 +789,5 @@ footer span a:hover{
     }
     .projects .carousel .card .box{min-height: 200px;}
     .projects .owl-dots{display: none;}
+    .navbar .logo a {font-size: 25px;}
 }
