@@ -636,7 +636,10 @@ footer span a:hover{
 .projects .carousel .card:hover img{
     border-color: #fff;
 }
-
+.home .home-content .text-4 {
+    font-size: 63px;
+    line-height: 80px;
+}
 
 
 /* responsive media query start */
