@@ -802,4 +802,6 @@ footer span a:hover{
         height: auto;
         width: 100%;
     }
+    .about .about-content .right .text span {
+        font-size: 19px;}
 }
