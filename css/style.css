@@ -798,4 +798,8 @@ footer span a:hover{
     .contact .contact-content .row .info {
         margin-left: 15px;
     }
+    .about .about-content .left img {
+        height: auto;
+        width: 100%;
+    }
 }
