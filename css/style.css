@@ -640,6 +640,9 @@ footer span a:hover{
     font-size: 63px;
     line-height: 80px;
 }
+.menu-btn i.active.fa-home:before {
+    content: "\f015";
+}
 
 
 /* responsive media query start */
