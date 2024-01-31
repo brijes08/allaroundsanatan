@@ -46,14 +46,14 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Digital Creator", "Video Creator", "Website Developer"],
+    strings: ["डिजिटल क्रिएटर", "विडियो क्रिएटर", "वैबसाइट डेवलपर"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Digital Creator", "Video Creator", "Website Developer"],
+    strings: ["डिजिटल क्रिएटर", "विडियो क्रिएटर", "वैबसाइट डेवलपर"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -64,17 +64,17 @@ $(document).ready(function () {
   let css = '';
   let greeting = '';
   if (curdate >= 1 && curdate < 12) {
-    greeting = 'Good Morning';
+    greeting = 'शुभ प्रभात';
     css = '#00ff00';
     document.getElementById('greetings');
   } else if (curdate >= 12 && curdate < 17) {
-    greeting = 'Good Afternoon';
+    greeting = 'शुभ दोपहर';
     css = 'yellow';
   } else if (curdate >= 17 && curdate < 21) {
-    greeting = 'Good Evening';
+    greeting = 'शुभ संध्या';
     css = '#FF9933';
   } else {
-    greeting = 'Hope You Had a Great Day Today';
+    greeting = 'आशा है आपका आज का दिन बहुत अच्छा रहा होगा';
     css = '#ffd68a';
   }
   document.getElementById('greetings').innerHTML = greeting;
